@@ -1,0 +1,315 @@
+<!doctype html>
+<html lang="en" class="govuk-template">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#0b0c0c">
+  <meta name="description" content="Data Devolution turns London's data requests into a clear, usable view of the data needed to improve public services.">
+  <title>Data Devolution</title>
+  <link rel="stylesheet" href="assets/styles.css">
+  <script defer src="assets/app.js"></script>
+</head>
+<body class="govuk-template__body">
+  <a class="govuk-skip-link" href="#main-content">Skip to main content</a>
+
+  <header class="govuk-header" role="banner" data-module="govuk-header">
+    <div class="govuk-width-container govuk-header__container">
+      <div class="govuk-header__logo">
+        <a href="#top" class="govuk-header__link govuk-header__link--homepage" aria-label="GOV.UK home">
+          <span class="govuk-header__logotype-text">GOV.UK</span>
+        </a>
+      </div>
+      <div class="govuk-header__content">
+        <a href="#top" class="govuk-header__link govuk-header__service-name">Data Devolution</a>
+        <button type="button" class="govuk-header__menu-button" aria-controls="service-navigation" aria-expanded="false">Menu</button>
+        <nav id="service-navigation" class="govuk-header__navigation" aria-label="Service navigation">
+          <a class="govuk-header__navigation-item" href="#priorities">Priority areas</a>
+          <a class="govuk-header__navigation-item" href="#requests">Data requests</a>
+          <a class="govuk-header__navigation-item" href="#principles">Principles</a>
+          <a class="govuk-header__navigation-item" href="#source">Source</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <div class="govuk-width-container">
+    <div class="govuk-phase-banner">
+      <p class="govuk-phase-banner__content">
+        <strong class="govuk-tag govuk-phase-banner__content__tag">Prototype</strong>
+        <span>This service is an accessible interpretation of the GLA's October 2026 data request.</span>
+      </p>
+    </div>
+  </div>
+
+  <main id="main-content" tabindex="-1">
+    <section id="top" class="app-hero">
+      <div class="govuk-width-container app-hero__grid">
+        <div>
+          <p class="govuk-caption-xl">Central government data for better public services</p>
+          <h1 class="govuk-heading-xl app-hero__title">Data Devolution</h1>
+          <p class="govuk-body-l app-hero__lead">A clearer route to the data London needs to plan services, understand outcomes and act earlier.</p>
+          <div class="app-button-group">
+            <a class="govuk-button govuk-button--start" href="#requests">Explore data requests <span aria-hidden="true">›</span></a>
+            <a class="govuk-link app-hero__link" href="#source">Read the source response</a>
+          </div>
+        </div>
+        <aside class="app-hero__summary" aria-label="At a glance">
+          <p class="govuk-heading-s">At a glance</p>
+          <dl class="app-stat-list">
+            <div><dt>7</dt><dd>priority areas</dd></div>
+            <div><dt>~9m</dt><dd>London residents</dd></div>
+            <div><dt>33</dt><dd>local authority areas: 32 boroughs and the City of London</dd></div>
+          </dl>
+        </aside>
+      </div>
+    </section>
+
+    <section class="govuk-width-container app-section app-section--intro" aria-labelledby="why-heading">
+      <div class="govuk-grid-row">
+        <div class="govuk-grid-column-two-thirds">
+          <h2 id="why-heading" class="govuk-heading-l">Why data devolution matters</h2>
+          <p class="govuk-body-l">High-quality, timely and linked data helps regional and local government see across boundaries and turn evidence into better decisions.</p>
+          <p class="govuk-body">The Greater London Authority's response sets out opportunities to improve access to central government data. The aim is practical: deliver and plan services, monitor impact, anticipate pressure and develop data-driven support for Londoners.</p>
+        </div>
+        <div class="govuk-grid-column-one-third">
+          <div class="govuk-inset-text app-inset">
+            <strong>Starting point, not a complete catalogue.</strong><br>
+            The response says limited visibility of data held across departments makes discovery itself part of the ask.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="priorities" class="app-section app-section--tinted" aria-labelledby="priorities-heading">
+      <div class="govuk-width-container">
+        <span class="govuk-caption-l">The opportunity</span>
+        <h2 id="priorities-heading" class="govuk-heading-l">Seven priority areas</h2>
+        <p class="govuk-body app-measure">The response groups the emerging data requests by policy theme. Choose an area to see what is available in this prototype.</p>
+
+        <div class="app-priority-grid">
+          <article class="app-priority-card app-priority-card--featured">
+            <span class="govuk-tag govuk-tag--blue">Detailed asks</span>
+            <h3 class="govuk-heading-m"><a class="govuk-link govuk-link--no-visited-state" href="#requests" data-filter-link="skills">Skills and employment</a></h3>
+            <p>Education participation, progression, provider performance, employment support, apprenticeships and NEET prevention.</p>
+            <ul class="app-card-meta"><li>DfE</li><li>DWP</li><li>HMRC</li></ul>
+          </article>
+          <article class="app-priority-card app-priority-card--featured">
+            <span class="govuk-tag govuk-tag--blue">Detailed asks</span>
+            <h3 class="govuk-heading-m"><a class="govuk-link govuk-link--no-visited-state" href="#requests" data-filter-link="hardship">Financial hardship</a></h3>
+            <p>Income, benefits and poverty data with more timely local and regional detail.</p>
+            <ul class="app-card-meta"><li>Universal Credit</li><li>PAYE</li><li>HBAI</li></ul>
+          </article>
+          <article class="app-priority-card">
+            <span class="govuk-tag govuk-tag--grey">Priority area</span>
+            <h3 class="govuk-heading-m">Housing</h3>
+            <p>A stated theme for future discussion with departments, partners and stakeholders.</p>
+          </article>
+          <article class="app-priority-card">
+            <span class="govuk-tag govuk-tag--grey">Priority area</span>
+            <h3 class="govuk-heading-m">Infrastructure</h3>
+            <p>A stated theme for future discussion with departments, partners and stakeholders.</p>
+          </article>
+          <article class="app-priority-card">
+            <span class="govuk-tag govuk-tag--grey">Priority area</span>
+            <h3 class="govuk-heading-m">Children and free school meals</h3>
+            <p>A stated theme for future discussion with departments, partners and stakeholders.</p>
+          </article>
+          <article class="app-priority-card">
+            <span class="govuk-tag govuk-tag--grey">Priority area</span>
+            <h3 class="govuk-heading-m">Migration and immigration</h3>
+            <p>A stated theme for future discussion with departments, partners and stakeholders.</p>
+          </article>
+          <article class="app-priority-card">
+            <span class="govuk-tag govuk-tag--grey">Priority area</span>
+            <h3 class="govuk-heading-m">Analytical tools</h3>
+            <p>A stated theme for future discussion with departments, partners and stakeholders.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="requests" class="govuk-width-container app-section" aria-labelledby="requests-heading">
+      <span class="govuk-caption-l">Browse the detail</span>
+      <h2 id="requests-heading" class="govuk-heading-l">Find a data request</h2>
+      <p class="govuk-body app-measure">Search the detailed asks available for skills, employment and financial hardship. Filter by theme or department.</p>
+
+      <div class="app-search-panel">
+        <div class="govuk-form-group app-search-field">
+          <label class="govuk-label govuk-label--m" for="request-search">Search requests</label>
+          <div id="request-search-hint" class="govuk-hint">For example, “learner”, “HMRC” or “local area”</div>
+          <div class="app-search-input-wrap">
+            <input class="govuk-input" id="request-search" name="request-search" type="search" aria-describedby="request-search-hint request-count" autocomplete="off">
+            <button class="app-search-button" type="button" id="clear-search">Clear</button>
+          </div>
+        </div>
+        <fieldset class="govuk-fieldset app-filter-fieldset">
+          <legend class="govuk-fieldset__legend govuk-fieldset__legend--s">Filter results</legend>
+          <div class="app-filter-row" id="request-filters">
+            <button type="button" class="app-filter app-filter--active" data-filter="all" aria-pressed="true">All</button>
+            <button type="button" class="app-filter" data-filter="skills" aria-pressed="false">Skills and employment</button>
+            <button type="button" class="app-filter" data-filter="hardship" aria-pressed="false">Financial hardship</button>
+            <button type="button" class="app-filter" data-filter="dfe" aria-pressed="false">DfE</button>
+            <button type="button" class="app-filter" data-filter="dwp" aria-pressed="false">DWP</button>
+            <button type="button" class="app-filter" data-filter="hmrc" aria-pressed="false">HMRC</button>
+          </div>
+        </fieldset>
+      </div>
+
+      <p id="request-count" class="govuk-body-s app-results-count" aria-live="polite">Showing 18 requests</p>
+
+      <div id="request-list" class="app-request-list">
+        <article class="app-request" data-tags="skills dfe learner education participation ilr school census npd">
+          <div><span class="govuk-tag govuk-tag--turquoise">14–19 education</span><span class="govuk-tag govuk-tag--grey">DfE</span></div>
+          <h3 class="govuk-heading-s">Participation and education records</h3>
+          <p>Full access to the Individualised Learner Record, School Census and National Pupil Database, with timely in-year data and history for performance trends.</p>
+        </article>
+        <article class="app-request" data-tags="skills dfe neet nccis participation tracking">
+          <div><span class="govuk-tag govuk-tag--turquoise">14–19 education</span><span class="govuk-tag govuk-tag--grey">DfE</span></div>
+          <h3 class="govuk-heading-s">NCCIS participation and tracking data</h3>
+          <p>Information on young people who are NEET and those whose activity is unknown.</p>
+        </article>
+        <article class="app-request" data-tags="skills dfe leo progression destination employment earnings linked">
+          <div><span class="govuk-tag govuk-tag--turquoise">Evaluation</span><span class="govuk-tag govuk-tag--grey">DfE</span></div>
+          <h3 class="govuk-heading-s">Progression and destination data</h3>
+          <p>Timely linked Longitudinal Education Outcomes data, or equivalent, covering further study, employment and earnings.</p>
+        </article>
+        <article class="app-request" data-tags="skills dfe hmrc education employment earnings outcomes linked impact">
+          <div><span class="govuk-tag govuk-tag--turquoise">Evaluation</span><span class="govuk-tag govuk-tag--grey">DfE / HMRC</span></div>
+          <h3 class="govuk-heading-s">Linked education and earnings outcomes</h3>
+          <p>Cross-system outcomes to evaluate programme impact and long-term results.</p>
+        </article>
+        <article class="app-request" data-tags="skills dfe learner provider progress achievement value added">
+          <div><span class="govuk-tag govuk-tag--turquoise">Evaluation</span><span class="govuk-tag govuk-tag--grey">DfE</span></div>
+          <h3 class="govuk-heading-s">Value-added and learner progress measures</h3>
+          <p>Measures that support fair comparisons of learner achievement and provider performance.</p>
+        </article>
+        <article class="app-request" data-tags="skills dfe provider funding allocation historic five years forecast">
+          <div><span class="govuk-tag govuk-tag--turquoise">Planning</span><span class="govuk-tag govuk-tag--grey">DfE</span></div>
+          <h3 class="govuk-heading-s">Historic 16–19 funding allocations</h3>
+          <p>At least five years of provider-level allocations and adjustments to establish baselines and model future demand.</p>
+        </article>
+        <article class="app-request" data-tags="skills dfe workforce vacancy recruitment retention pay shortage">
+          <div><span class="govuk-tag govuk-tag--turquoise">Planning</span><span class="govuk-tag govuk-tag--grey">DfE</span></div>
+          <h3 class="govuk-heading-s">Education workforce capacity</h3>
+          <p>Vacancies, recruitment, retention, pay and shortage subjects to identify future pressures.</p>
+        </article>
+        <article class="app-request" data-tags="skills dfe neet infrastructure single view early warning participation prevention">
+          <div><span class="govuk-tag govuk-tag--turquoise">Data service</span><span class="govuk-tag govuk-tag--grey">DfE</span></div>
+          <h3 class="govuk-heading-s">A single view of participation</h3>
+          <p>Infrastructure for new analytical and operational services, including earlier identification of NEET risk.</p>
+        </article>
+        <article class="app-request" data-tags="skills dwp claimant caseload referral participation attrition employment support">
+          <div><span class="govuk-tag govuk-tag--purple">Employment support</span><span class="govuk-tag govuk-tag--grey">DWP</span></div>
+          <h3 class="govuk-heading-s">Claimant, caseload and programme flow</h3>
+          <p>DWP claimant and caseload data alongside referrals, participation and attrition for employment support.</p>
+        </article>
+        <article class="app-request" data-tags="skills dwp provider delivery performance targets employment support">
+          <div><span class="govuk-tag govuk-tag--purple">Employment support</span><span class="govuk-tag govuk-tag--grey">DWP</span></div>
+          <h3 class="govuk-heading-s">Programme and provider performance</h3>
+          <p>Delivery models and performance against targets for employment support programmes.</p>
+        </article>
+        <article class="app-request" data-tags="skills dwp jobcentre workforce work coach staffing estate caseload capacity">
+          <div><span class="govuk-tag govuk-tag--purple">Employment support</span><span class="govuk-tag govuk-tag--grey">DWP</span></div>
+          <h3 class="govuk-heading-s">Jobcentre and workforce data</h3>
+          <p>Estate information, work coach caseloads, staffing levels and operational capacity.</p>
+        </article>
+        <article class="app-request" data-tags="skills dwp hmrc linked employment earnings retention benefit transition outcomes">
+          <div><span class="govuk-tag govuk-tag--purple">Outcomes</span><span class="govuk-tag govuk-tag--grey">DWP / HMRC</span></div>
+          <h3 class="govuk-heading-s">Linked employment outcomes</h3>
+          <p>Administrative data that tracks employment, earnings, job retention and benefit transitions.</p>
+        </article>
+        <article class="app-request" data-tags="skills dwp earnings progression stability quality job">
+          <div><span class="govuk-tag govuk-tag--purple">Outcomes</span><span class="govuk-tag govuk-tag--grey">DWP</span></div>
+          <h3 class="govuk-heading-s">Job quality measures</h3>
+          <p>Earnings, progression and employment stability measures.</p>
+        </article>
+        <article class="app-request" data-tags="skills dwp funding expenditure baseline local area employment support">
+          <div><span class="govuk-tag govuk-tag--purple">Planning</span><span class="govuk-tag govuk-tag--grey">DWP</span></div>
+          <h3 class="govuk-heading-s">Employment support funding baselines</h3>
+          <p>Historic programme expenditure and funding by local area to inform transfer negotiations and settlements.</p>
+        </article>
+        <article class="app-request" data-tags="hardship dwp universal credit uc administrative vulnerable household benefits">
+          <div><span class="govuk-tag govuk-tag--orange">Financial hardship</span><span class="govuk-tag govuk-tag--grey">DWP</span></div>
+          <h3 class="govuk-heading-s">Administrative Universal Credit data</h3>
+          <p>Improved access to identify financially vulnerable households and strengthen the evidence for interventions.</p>
+        </article>
+        <article class="app-request" data-tags="hardship hmrc paye income tax cost living borough local area">
+          <div><span class="govuk-tag govuk-tag--orange">Financial hardship</span><span class="govuk-tag govuk-tag--grey">HMRC</span></div>
+          <h3 class="govuk-heading-s">HMRC PAYE data</h3>
+          <p>Personal income and tax information to support cost-of-living assistance and understanding within London and each borough.</p>
+        </article>
+        <article class="app-request" data-tags="hardship dwp hbai family resources survey regional demographic poverty income">
+          <div><span class="govuk-tag govuk-tag--orange">Financial hardship</span><span class="govuk-tag govuk-tag--grey">DWP</span></div>
+          <h3 class="govuk-heading-s">Detailed HBAI and Family Resources Survey data</h3>
+          <p>More regional demographic breakdowns where sample sizes permit, reducing reliance on time-intensive microdata analysis.</p>
+        </article>
+        <article class="app-request" data-tags="hardship poverty income local authority ward neighbourhood small geography statistics">
+          <div><span class="govuk-tag govuk-tag--orange">Financial hardship</span><span class="govuk-tag govuk-tag--grey">Local detail</span></div>
+          <h3 class="govuk-heading-s">Income and poverty at smaller geographies</h3>
+          <p>Publication for local authorities, wards and neighbourhoods where feasible to improve local targeting and decisions.</p>
+        </article>
+      </div>
+
+      <div id="no-results" class="govuk-notification-banner govuk-notification-banner--error app-hidden" role="alert" aria-labelledby="no-results-title">
+        <div class="govuk-notification-banner__header"><h3 id="no-results-title">No matching requests</h3></div>
+        <div class="govuk-notification-banner__content"><p>Try a broader search or choose another filter.</p></div>
+      </div>
+    </section>
+
+    <section id="principles" class="app-section app-section--dark" aria-labelledby="principles-heading">
+      <div class="govuk-width-container">
+        <span class="govuk-caption-l app-caption-light">A useful data relationship</span>
+        <h2 id="principles-heading" class="govuk-heading-l">What the response prioritises</h2>
+        <div class="app-principles-grid">
+          <article><span class="app-principle-number">1</span><h3>Timely access</h3><p>Use regular in-year and operational data, not just delayed snapshots.</p></article>
+          <article><span class="app-principle-number">2</span><h3>Linked outcomes</h3><p>Connect education, work, earnings, benefits, health and services to understand long-term results.</p></article>
+          <article><span class="app-principle-number">3</span><h3>London-wide and local detail</h3><p>Combine a capital-wide view with the granularity needed for local delivery.</p></article>
+          <article><span class="app-principle-number">4</span><h3>Better discovery</h3><p>Make departmental holdings easier to find and create a route for ad-hoc data enquiries.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="govuk-width-container app-section" aria-labelledby="outcomes-heading">
+      <h2 id="outcomes-heading" class="govuk-heading-l">From access to outcomes</h2>
+      <div class="app-journey" role="list">
+        <div class="app-journey__step" role="listitem"><span>1</span><h3>Discover</h3><p>Understand what data departments hold.</p></div>
+        <div class="app-journey__step" role="listitem"><span>2</span><h3>Access</h3><p>Create reliable sharing arrangements.</p></div>
+        <div class="app-journey__step" role="listitem"><span>3</span><h3>Link</h3><p>Connect records across systems and time.</p></div>
+        <div class="app-journey__step" role="listitem"><span>4</span><h3>Act</h3><p>Plan, evaluate and intervene earlier.</p></div>
+      </div>
+    </section>
+
+    <section id="source" class="app-section app-section--source" aria-labelledby="source-heading">
+      <div class="govuk-width-container">
+        <div class="govuk-grid-row">
+          <div class="govuk-grid-column-two-thirds">
+            <span class="govuk-caption-l">Source and scope</span>
+            <h2 id="source-heading" class="govuk-heading-l">About this prototype</h2>
+            <p class="govuk-body">This service is based on the Greater London Authority's <em>Response to Rewiring the State: Central government data to improve public service delivery</em>, dated October 2026.</p>
+            <p class="govuk-body">It is an interpretation designed for discovery, not a replacement for the original response. Detailed request cards cover the portions of the source used in this prototype; the seven-area overview preserves the full thematic structure set out in the executive summary.</p>
+            <p class="app-button-group">
+              <a class="govuk-button" href="https://data.london.gov.uk/download/2rjxm/5sc/Data%20Request_Skills_PolTeams_final.pdf">Open the source PDF</a>
+              <a class="govuk-link" href="https://data.london.gov.uk/dataset/response-to-rewiring-the-state-data-requests-from-the-gla-to-cen-2rjxm">View on the London Datastore</a>
+            </p>
+          </div>
+          <div class="govuk-grid-column-one-third">
+            <h3 class="govuk-heading-m">Design approach</h3>
+            <p class="govuk-body">Built as a standalone static site using GOV.UK Design System conventions for layout, type, colour, focus states and accessible interaction.</p>
+            <a class="govuk-link" href="https://design-system.service.gov.uk/">GOV.UK Design System</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="govuk-footer">
+    <div class="govuk-width-container govuk-footer__meta">
+      <div>
+        <p class="govuk-body-s"><strong>Data Devolution</strong> is a concept service based on public GLA material.</p>
+        <p class="govuk-body-s"><a class="govuk-footer__link" href="#top">Back to top</a></p>
+      </div>
+      <div class="govuk-footer__licence-description">Content source: Greater London Authority, October 2026.</div>
+    </div>
+  </footer>
+</body>
+</html>
